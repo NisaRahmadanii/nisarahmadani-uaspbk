@@ -1,0 +1,40 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "title": "Complete project proposal",
+      "description": "Finish the project proposal document and send to client",
+      "dueDate": "2023-06-15",
+      "priority": "high",
+      "status": "in-progress",
+      "createdAt": "2023-05-20T10:00:00Z"
+    },
+    {
+      "id": "2",
+      "title": "Team meeting",
+      "description": "Weekly team sync meeting",
+      "dueDate": "2023-06-10",
+      "priority": "medium",
+      "status": "in-progress",
+      "createdAt": "2023-05-18T14:30:00Z"
+    },
+    {
+      "id": "f058",
+      "title": "Tugas PBK",
+      "description": "UAS PBK",
+      "dueDate": "2025-07-11",
+      "priority": "high",
+      "status": "completed",
+      "createdAt": "2025-07-09T22:34:25.192Z"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "admin123",
+      "name": "Admin User",
+      "email": "admin@example.com"
+    }
+  ]
+}

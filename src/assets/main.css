@@ -1,0 +1,62 @@
+:root {
+  /* Color Palette */
+  --primary: #673ab7;
+  --primary-hover: #7e57c2;
+  --primary-light: #d1c4e9;
+  --bg-dark: #121212;
+  --card-bg: #1e1e1e;
+  --task-bg: #252525;
+  --navbar-bg: #1e1e1e;
+  --sidebar-bg: #1a1a1a;
+  --input-bg: #2d2d2d;
+  --border-color: #333;
+  --text-light: #e0e0e0;
+  --text-muted: #9e9e9e;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--bg-dark);
+  color: var(--text-light);
+  line-height: 1.6;
+}
+
+#app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--card-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-hover);
+}
